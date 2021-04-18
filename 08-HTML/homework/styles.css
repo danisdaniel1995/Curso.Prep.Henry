@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/08-HTML/img/pizza.jpg);
+}
+
+h1{
+    color: brown;   
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+.divClass{
+    margin: 10px auto;
+    width: 80%;
+}
+
+.divClass h1, h3, h4, p, span{
+    text-align: center;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(238, 226, 221);
+    padding: 50px;
+    border: 5px solid tomato; 
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
